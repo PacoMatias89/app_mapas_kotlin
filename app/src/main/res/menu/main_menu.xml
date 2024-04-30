@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group >
+        <item
+            android:id="@+id/distance"
+            android:orderInCategory="100"
+            android:title="Distancia"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/perimeter"
+            android:orderInCategory="100"
+            android:title="Perímetro"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/area"
+            android:orderInCategory="100"
+            android:title="Área"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/delete"
+            android:orderInCategory="100"
+            android:title="Borrar"
+            app:showAsAction="never" />
+
+
+
+    </group>
+
+
+</menu>
